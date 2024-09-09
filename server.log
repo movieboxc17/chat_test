@@ -1,0 +1,24 @@
+2024-08-28 21:07:37,461 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.50:5000
+2024-08-28 21:07:37,462 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-28 21:07:37,472 - INFO -  * Restarting with stat
+2024-08-28 21:07:37,791 - WARNING -  * Debugger is active!
+2024-08-28 21:07:37,797 - INFO -  * Debugger PIN: 153-568-226
+2024-08-28 21:10:03,578 - INFO - Request: GET /
+2024-08-28 21:10:03,597 - INFO - 192.168.68.65 - - [28/Aug/2024 21:10:03] "GET / HTTP/1.1" 200 -
+2024-08-28 21:10:53,684 - INFO - Request: GET /
+2024-08-28 21:10:53,684 - INFO - 192.168.68.65 - - [28/Aug/2024 21:10:53] "GET / HTTP/1.1" 200 -
+2024-08-28 21:11:17,766 - INFO - Request: GET /
+2024-08-28 21:11:17,767 - INFO - 192.168.68.65 - - [28/Aug/2024 21:11:17] "GET / HTTP/1.1" 200 -
+2024-08-28 21:11:44,245 - INFO - Request: GET /
+2024-08-28 21:11:44,246 - INFO - 192.168.68.50 - - [28/Aug/2024 21:11:44] "GET / HTTP/1.1" 200 -
+2024-08-28 21:11:44,286 - INFO - Request: GET /favicon.ico
+2024-08-28 21:11:44,286 - ERROR - Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-28 21:11:44,287 - INFO - 192.168.68.50 - - [28/Aug/2024 21:11:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-08-28 21:11:46,092 - INFO - Request: GET /
+2024-08-28 21:11:46,092 - INFO - 192.168.68.50 - - [28/Aug/2024 21:11:46] "GET / HTTP/1.1" 200 -
+2024-08-28 21:11:46,114 - INFO - Request: GET /favicon.ico
+2024-08-28 21:11:46,114 - ERROR - Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-28 21:11:46,114 - INFO - 192.168.68.50 - - [28/Aug/2024 21:11:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
